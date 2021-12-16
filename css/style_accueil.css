@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+    margin: 0;
+}
+body{
+    font: 1.6rem 'Dosis',sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+main{
+    padding-top: 5rem;
+}
+main section{
+padding: 2rem;
+margin: 0 auto;
+max-width: 370px;
+background-color: #ffffff;
+border: solid .1rem #7c7c7c8e;
+margin: 2rem auto;
+}
+section img{
+    max-width: 26rem;
+}
+.gallerie{
+    padding: 0;
+    background-color: #222222;
+    max-width: 80rem;
+}
+.gallerie h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.gallerie ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
