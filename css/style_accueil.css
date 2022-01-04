@@ -48,3 +48,15 @@ section img{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+.dl{
+    border: #fafafa;
+    background-color: #fafafa;
+}
+.dl img{
+    padding-top: 2rem;
+    width: 15rem
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}

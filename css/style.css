@@ -92,3 +92,11 @@ ul{
     display: grid;
     grid-template-columns: repeat(2,2fr);
 }
+.success{
+    
+}
+.warning{
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(187, 26, 26);
+}
