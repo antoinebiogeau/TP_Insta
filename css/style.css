@@ -19,7 +19,7 @@ a{
     text-decoration: none;
 }
 main{
-    padding-top: 5rem;
+    padding-top: 1.5rem;
 }
 main section{
 padding: 2rem;
@@ -30,7 +30,7 @@ border: solid .1rem #7c7c7c8e;
 margin-bottom: 2rem;
 }
 section img{
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
     width: 20rem;
     display: block;
     margin: 0 auto;
@@ -99,4 +99,5 @@ ul{
     text-align: center;
     font-size: 1.6rem;
     color: rgb(187, 26, 26);
+    padding-bottom: 1rem;
 }

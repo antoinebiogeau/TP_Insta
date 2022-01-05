@@ -30,6 +30,18 @@ background-color: #ffffff;
 border: solid .1rem #7c7c7c8e;
 margin: 2rem auto;
 }
+h2,h3{
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+h3 span{
+    font-size: 2rem;
+    vertical-align:top;
+}
+h3 img{
+    margin: 0 auto;
+    padding-top: 1rem;
+}
 section img{
     max-width: 26rem;
 }
@@ -47,6 +59,11 @@ section img{
 .gallerie ul{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+.gallerie ul li img{
+    max-width: 100%;
+    display: block;
+    border: solid .2rem #222222;
 }
 .dl{
     border: #fafafa;
