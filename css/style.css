@@ -30,7 +30,7 @@ border: solid .1rem #7c7c7c8e;
 margin-bottom: 2rem;
 }
 section img{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     width: 20rem;
     display: block;
     margin: 0 auto;
@@ -50,7 +50,7 @@ form input{
 
 }
 form input:last-child{
-    background-color: #3897f0;
+    background-color: #1d73c5;
     border: none;
     color: #fafafa;
 }
@@ -59,22 +59,23 @@ form input:last-child{
     display: grid;
     text-align: center;
     background-color: #ffffff;
-    
 }
 hr{
     width: 100%;
+    transform: translateY(1.6rem);
+    color: #757575;
 }
 .alternative p{
-    color: #7c7c7c;
+    color: #757575;
+    font-size: 1.6rem;
     font-weight: lighter;
     background-color: #ffffff;
     padding: 1rem;
-    translate: 0 3rem;
-    width: 20%;
+    transform: translateY(-1.3rem);
     margin: 0 auto;
 }
 .alternative a{
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-weight: lighter;
 }
 .dl{
@@ -88,12 +89,13 @@ hr{
     padding-top: 2rem;
     width: 15rem
 }
+.dl h2{
+    font-weight: lighter;
+    font-size: 1.6rem;
+}
 ul{
     display: grid;
     grid-template-columns: repeat(2,2fr);
-}
-.success{
-    
 }
 .warning{
     text-align: center;

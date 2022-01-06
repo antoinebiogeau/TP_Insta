@@ -48,7 +48,7 @@ section img{
 .gallerie{
     padding: 0;
     background-color: #222222;
-    max-width: 80rem;
+    max-width: 100rem;
 }
 .gallerie h3{
     color: #ffffff;
